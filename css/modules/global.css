@@ -14,10 +14,14 @@
   --color-c12: #000000;
 
   --color-p1: #ffbb00;
-  --color-p1: #e4a30b;
-  --color-p1: #a66f00;
-  --color-p1: #664400;
-  --color-p1: #332200;
+  --color-p2: #ffbf00;
+  --color-p3: #ffb60d;
+  --color-p4: #e59317;
+  --color-p5: #f2a50c;
+  --color-p6: #e4a30b;
+  --color-p7: #a66f00;
+  --color-p8: #664400;
+  --color-p9: #332200;
 
   --gap-size-000: 0;
   --gap-size-004: 0.25rem;
@@ -33,6 +37,7 @@
   --gap-size-040: 2.5rem;
   --gap-size-048: 3rem;
   --gap-size-060: 3.75rem;
+  --gap-size-064: 4rem;
   --gap-size-072: 4.5rem;
   --gap-size-080: 5rem;
   --gap-size-120: 7.5rem;
