@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .header-container {
+    gap: var(--gap-size-016);
+  }
+  .header-menu {
+    gap: var(--gap-size-020);
+  }
+  .header-menu a {
+    background-color: var(--color-c11);
+    border-radius: var(--gap-size-004);
+    padding: var(--gap-size-012) var(--gap-size-016);
+    transition: background-color 0.3s ease;
+  }
+  .header-menu a:hover {
+    background-color: var(--color-c10);
+  }
+  .header-menu a::before {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .header-menu {
+    gap: var(--gap-size-012);
+  }
+  header-menu a {
+    font-size: var(--gap-size-014);
+    padding: var(--gap-size-008) var(--gap-size-012);
+  }
+}

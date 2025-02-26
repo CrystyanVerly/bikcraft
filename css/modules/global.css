@@ -1,0 +1,43 @@
+:root {
+  --color-wht: #ffffff;
+  --color-c01: #f7f7f7;
+  --color-c02: #ededed;
+  --color-c03: #dedede;
+  --color-c04: #cccccc;
+  --color-c05: #b2b2b2;
+  --color-c06: #9c9c9c;
+  --color-c07: #717171;
+  --color-c08: #595959;
+  --color-c09: #404040;
+  --color-c10: #2e2e2e;
+  --color-c11: #111111;
+  --color-c12: #000000;
+
+  --color-p1: #ffbb00;
+  --color-p1: #e4a30b;
+  --color-p1: #a66f00;
+  --color-p1: #664400;
+  --color-p1: #332200;
+
+  --gap-size-000: 0;
+  --gap-size-004: 0.25rem;
+  --gap-size-008: 0.5rem;
+  --gap-size-012: 0.75rem;
+  --gap-size-014: 0.875rem;
+  --gap-size-016: 1rem;
+  --gap-size-018: 1.125rem;
+  --gap-size-020: 1.25rem;
+  --gap-size-024: 1.5rem;
+  --gap-size-032: 2rem;
+  --gap-size-036: 2.25rem;
+  --gap-size-040: 2.5rem;
+  --gap-size-048: 3rem;
+  --gap-size-060: 3.75rem;
+  --gap-size-072: 4.5rem;
+  --gap-size-080: 5rem;
+  --gap-size-120: 7.5rem;
+  --gap-size-160: 10rem;
+  --gap-size-200: 12.5rem;
+
+  --width-body: 75rem;
+}
