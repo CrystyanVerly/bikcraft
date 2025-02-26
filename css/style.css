@@ -1,5 +1,15 @@
-@import url("/css/modules/reset.css");
-@import url("/css/modules/global.css");
-@import url("/css/modules/header.css");
-@import url("/css/modules/main.css");
-@import url("/css/modules/responsive.css");
+/* reset */
+@import url("/css/modules/reset/reset.css");
+
+/* home */
+@import url("/css/modules/home/header.css");
+@import url("/css/modules/home/main.css");
+
+/* utilities */
+@import url("/css/modules/utilities/components.css");
+@import url("/css/modules/utilities/gap-size.css");
+@import url("/css/modules/utilities/typography.css");
+@import url("/css/modules/utilities/colors.css");
+
+/* responsive */
+@import url("/css/modules/responsive/responsive.css");

@@ -3,13 +3,10 @@
 }
 .header-container {
   align-items: center;
-  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: var(--width-body);
   padding: 1.25rem;
 }
 .header-menu {
@@ -19,9 +16,7 @@
   place-content: center;
 }
 .header-menu a {
-  color: var(--color-wht);
   cursor: pointer;
-  font-size: var(--gap-size-018);
   padding: 1rem 0;
   position: relative;
 }

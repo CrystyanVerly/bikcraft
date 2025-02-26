@@ -1,0 +1,24 @@
+:root {
+  --width-body: 75rem;
+
+  --gap-size-000: 0;
+  --gap-size-004: 0.25rem;
+  --gap-size-008: 0.5rem;
+  --gap-size-012: 0.75rem;
+  --gap-size-014: 0.875rem;
+  --gap-size-016: 1rem;
+  --gap-size-018: 1.125rem;
+  --gap-size-020: 1.25rem;
+  --gap-size-024: 1.5rem;
+  --gap-size-032: 2rem;
+  --gap-size-036: 2.25rem;
+  --gap-size-040: 2.5rem;
+  --gap-size-048: 3rem;
+  --gap-size-060: 3.75rem;
+  --gap-size-064: 4rem;
+  --gap-size-072: 4.5rem;
+  --gap-size-080: 5rem;
+  --gap-size-120: 7.5rem;
+  --gap-size-160: 10rem;
+  --gap-size-200: 12.5rem;
+}
