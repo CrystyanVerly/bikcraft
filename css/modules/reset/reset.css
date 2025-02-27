@@ -12,6 +12,9 @@ img {
   height: auto;
   max-width: 100%;
 }
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
 a {
   color: inherit;
   display: inline-block;

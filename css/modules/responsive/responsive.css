@@ -51,6 +51,12 @@
   .main-description-container {
     padding-bottom: 0;
   }
+  .bike-list-container {
+    padding: 60px 0 60px;
+  }
+  .bike-list {
+    gap: 2rem;
+  }
 }
 @media (max-width: 425px) {
   .header-menu {

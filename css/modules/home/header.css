@@ -21,7 +21,7 @@
   position: relative;
 }
 .header-menu a::before {
-  background-color: var(--color-wht);
+  background-color: var(--color-c00);
   bottom: var(--gap-size-012);
   content: "";
   display: inline-block;
