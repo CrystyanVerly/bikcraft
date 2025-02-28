@@ -5,6 +5,8 @@
 @import url("/css/modules/home/header.css");
 @import url("/css/modules/home/main.css");
 @import url("/css/modules/home/bikelist.css");
+@import url("/css/modules/home/bikelist.css");
+@import url("/css/modules/home/technology.css");
 
 /* utilities */
 @import url("/css/modules/utilities/components.css");
