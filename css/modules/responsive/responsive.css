@@ -40,6 +40,20 @@
     align-self: center;
     padding: 3.75rem 0;
   }
+  .partners-list-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .partners-list-container li {
+    border: none;
+    border-bottom: 2px solid var(--color-c02);
+  }
+  .partners-list-container li:nth-child(n + 5) {
+    border: none;
+    border-bottom: 2px solid var(--color-c02);
+  }
+  .partners-list-container li:nth-child(odd) {
+    border-right: 2px solid var(--color-c02);
+  }
 }
 @media (max-width: 768px) {
   .header-container {
