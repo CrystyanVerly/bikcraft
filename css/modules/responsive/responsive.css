@@ -113,6 +113,10 @@
   .quote-declaration-container blockquote p::after {
     font-size: 3.75rem;
   }
+  .insurance-types-container {
+    grid-template-columns: 1fr;
+    padding: 3.75rem 0;
+  }
 }
 @media (max-width: 425px) {
   .header-menu {

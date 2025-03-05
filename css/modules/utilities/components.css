@@ -2,8 +2,8 @@
 .structure-side {
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0 20px;
   max-width: var(--width-body);
+  padding: 0 20px;
 }
 /* button */
 .btn {
@@ -21,6 +21,14 @@
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn.secundary {
+  background: var(--color-c10);
+  color: var(--color-c02);
+  transition: background-color 0.3s ease;
+}
+.btn.secundary:hover {
+  background: var(--color-c09);
 }
 .link {
   color: var(--color-p1);
