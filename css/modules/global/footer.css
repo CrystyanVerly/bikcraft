@@ -1,0 +1,38 @@
+.footer-bg {
+  background: var(--color-c12);
+}
+.footer-container {
+  display: grid;
+  gap: 3.5rem;
+  grid-template-columns: 3fr 5fr 4fr;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+}
+.footer-subtitle {
+  margin-bottom: 2rem;
+}
+.footer-list li {
+  margin-bottom: 1rem;
+}
+.contact-container .footer-list li:nth-child(even)::after {
+  background: var(--color-c11);
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 1rem;
+  max-width: 360px;
+  width: 100%;
+}
+.social-network-list {
+  display: flex;
+  gap: 2rem;
+}
+.info-container li {
+  transition: color 0.3s ease;
+}
+.info-container li:hover {
+  color: var(--color-c00);
+}
+.footer-copy {
+  grid-column: 1 / -1;
+}

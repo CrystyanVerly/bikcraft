@@ -1,8 +1,17 @@
 /* reset */
 @import url("/css/modules/reset/reset.css");
 
+/* utilities */
+@import url("/css/modules/utilities/components.css");
+@import url("/css/modules/utilities/gap-size.css");
+@import url("/css/modules/utilities/typography.css");
+@import url("/css/modules/utilities/colors.css");
+
+/* global */
+@import url("/css/modules/global/header.css");
+@import url("/css/modules/global/footer.css");
+
 /* home */
-@import url("/css/modules/home/header.css");
 @import url("/css/modules/home/main.css");
 @import url("/css/modules/home/bikelist.css");
 @import url("/css/modules/home/bikelist.css");
@@ -10,12 +19,6 @@
 @import url("/css/modules/home/partners.css");
 @import url("/css/modules/home/declaration.css");
 @import url("/css/modules/home/insurance.css");
-
-/* utilities */
-@import url("/css/modules/utilities/components.css");
-@import url("/css/modules/utilities/gap-size.css");
-@import url("/css/modules/utilities/typography.css");
-@import url("/css/modules/utilities/colors.css");
 
 /* responsive */
 @import url("/css/modules/responsive/responsive.css");

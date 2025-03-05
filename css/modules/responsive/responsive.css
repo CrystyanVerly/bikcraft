@@ -117,6 +117,13 @@
     grid-template-columns: 1fr;
     padding: 3.75rem 0;
   }
+  footer .logo-container {
+    display: none;
+  }
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 }
 @media (max-width: 425px) {
   .header-menu {
@@ -127,5 +134,8 @@
   }
   .quote-declaration-container blockquote {
     max-width: 30ch;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
   }
 }
