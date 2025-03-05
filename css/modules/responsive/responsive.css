@@ -54,6 +54,10 @@
   .partners-list-container li:nth-child(odd) {
     border-right: 2px solid var(--color-c02);
   }
+  .partners-list-container li:last-child,
+  .partners-list-container li:nth-child(7) {
+    border-bottom: none;
+  }
 }
 @media (max-width: 768px) {
   .header-container {
@@ -86,6 +90,29 @@
   .bike-list {
     gap: 2rem;
   }
+  .partners-list-container li {
+    padding: 1.25rem;
+  }
+  .quote-declaration-container {
+    justify-self: center;
+    padding: 2.5rem 1.25rem;
+  }
+  .declaration-container {
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    text-align: center;
+  }
+  .picture-declaration-container img {
+    max-height: 300px;
+    width: 100%;
+  }
+  .quote-declaration-container blockquote p::before {
+    left: -25px;
+  }
+  .quote-declaration-container blockquote p::before,
+  .quote-declaration-container blockquote p::after {
+    font-size: 3.75rem;
+  }
 }
 @media (max-width: 425px) {
   .header-menu {
@@ -93,5 +120,8 @@
   }
   .header-menu a {
     padding: 0.5rem 0.75rem;
+  }
+  .quote-declaration-container blockquote {
+    max-width: 30ch;
   }
 }
