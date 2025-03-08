@@ -1,0 +1,39 @@
+@media (max-width: 945px) {
+  .bikes-bg {
+    background: var(--color-c12);
+  }
+  .bikes-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 845px) {
+  .inner-bg-title {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .terms {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+  .inner-p-title {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
+@media (max-width: 425px) {
+  .bike-advantages-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .bikes-advantages-list {
+    gap: 0.5rem;
+  }
+  .bike-advantages-container .btn {
+    display: flex;
+    align-self: stretch !important;
+    width: 100% !important;
+  }
+}

@@ -20,5 +20,13 @@
 @import url("/css/modules/home/declaration.css");
 @import url("/css/modules/home/insurance.css");
 
+/* terms */
+@import url("/css/modules/terms/terms.css");
+
+/* bikes  */
+
+@import url("/css/modules/bikes/bikes.css");
+
 /* responsive */
-@import url("/css/modules/responsive/responsive.css");
+@import url("/css/modules/responsive/responsive-home.css");
+@import url("/css/modules/responsive/responsive-inner-pages.css");
