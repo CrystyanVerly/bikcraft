@@ -9,7 +9,6 @@
 .inner-bg-title.advantage {
   background-color: var(--color-c12) !important;
 }
-
 .inner-bg-title.advantage {
   padding-top: 7.5rem !important;
 }
@@ -18,9 +17,51 @@
 }
 .inner-advantage-bg ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem 5rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 .inner-advantage-bg li h2 {
   margin: 0.5rem 0;
+}
+.FAQ-bg {
+  padding: 7.5rem 1.25rem;
+}
+.FAQ-bg h1 {
+  margin-bottom: 3.75rem;
+}
+.question-container {
+  padding: 1.25rem;
+  border-radius: 4px;
+}
+.question-container:nth-child(odd) {
+  background-color: var(--color-c01);
+}
+.FAQ-bg dt {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.FAQ-bg dt::before {
+  background-color: var(--color-p1);
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+}
+.FAQ-bg dt::after {
+  background: url("/img/icones/seta-abrir.svg");
+  content: "";
+  display: inline-block;
+  height: 6px;
+  margin-left: auto;
+  width: 14px;
+  transition: 0.3s;
+}
+.FAQ-bg dt:hover::after {
+  transform: rotate(180deg);
+}
+.FAQ-bg dd {
+  max-width: 80ch;
 }

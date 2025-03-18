@@ -60,19 +60,3 @@
   display: flex;
   gap: 0.5rem;
 }
-.bike-advantages-container .btn {
-  align-items: center;
-  display: flex;
-  gap: 0.75rem;
-  justify-self: end;
-}
-.bike-advantages-container .btn::after {
-  background: url("/img/icones/seta.svg");
-  content: "";
-  height: 10px;
-  transition: transform 0.3s;
-  width: 18px;
-}
-.bike-advantages-container .btn:hover::after {
-  transform: translatex(5px);
-}
