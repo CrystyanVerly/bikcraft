@@ -34,6 +34,7 @@
 /* insurance */
 
 @import url("/css/modules/insurance/insurance.css");
+@import url("/css/modules/bike/insurance-bike.css");
 
 /* responsive */
 @import url("/css/modules/responsive/responsive-home.css");

@@ -31,6 +31,18 @@
   .bikes-galery-container {
     grid-row: 2;
   }
+  .insurance-bike-bg {
+    background-color: var(--color-c11);
+    box-shadow: inset 0 -60px var(--color-c12);
+  }
+  .insurance-bike-container {
+    grid-template-columns: 1fr;
+  }
+  .insurance-bike-content {
+    grid-row: 1;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
 }
 @media (max-width: 575px) {
   .inner-advantage-bg ul {
