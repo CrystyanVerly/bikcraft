@@ -6,6 +6,7 @@
 @import url("/css/modules/utilities/gap-size.css");
 @import url("/css/modules/utilities/typography.css");
 @import url("/css/modules/utilities/colors.css");
+@import url("/css/modules/utilities/form.css");
 
 /* global */
 @import url("/css/modules/global/header.css");
@@ -35,6 +36,10 @@
 
 @import url("/css/modules/insurance/insurance.css");
 @import url("/css/modules/bike/insurance-bike.css");
+
+/* contact */
+@import url("/css/modules/contact/contact.css");
+@import url("/css/modules/contact/stores.css");
 
 /* responsive */
 @import url("/css/modules/responsive/responsive-home.css");
