@@ -41,6 +41,10 @@
 @import url("/css/modules/contact/contact.css");
 @import url("/css/modules/contact/stores.css");
 
+/* budget */
+
+@import url("/css/modules/budget/budget.css");
+
 /* responsive */
 @import url("/css/modules/responsive/responsive-home.css");
 @import url("/css/modules/responsive/responsive-inner-pages.css");
