@@ -28,15 +28,18 @@
 }
 .budget-product {
   border-radius: 5px 0 0 5px;
-  background: var(--color-c12);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
   gap: 20px;
+  border-radius: 0 5px 5px 0;
+  background: var(--color-c12) url("/img/dec/bottom-left.svg") no-repeat bottom
+    20px left 20px;
 }
 .budget-data {
   border-radius: 0 5px 5px 0;
-  background: var(--color-c00);
+  background: var(--color-c00) url("/img/dec/bottom-right.svg") no-repeat bottom
+    20px right 20px;
 }
 .budget-product > * {
   grid-column: 1/-1;
@@ -136,6 +139,8 @@
   }
   .budget-product {
     border-radius: 5px 5px 0 0;
+    border-radius: 0 5px 5px 0;
+    background: var(--color-c12);
   }
   .budget-data {
     border-radius: 0 0 5px 5px;

@@ -52,6 +52,7 @@
   }
   .contact-address {
     border-radius: 5px 5px 0 0;
+    background: var(--color-c12);
   }
   .contact-data {
     border-radius: 0 0 5px 5px;

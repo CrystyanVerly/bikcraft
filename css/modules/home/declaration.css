@@ -7,6 +7,8 @@
 .quote-declaration-container {
   align-self: end;
   padding: 2.5rem 2.5rem 5rem 5rem;
+  background: url("/img/dec/bottom-right-p.svg") no-repeat bottom 40px right
+    40px;
 }
 .quote-declaration-container blockquote {
   font-style: italic;
@@ -37,4 +39,10 @@
   border-radius: 0px !important;
   height: 100%;
   object-fit: cover;
+}
+
+@media (min-width: 1200px) {
+  .picture-declaration-container img {
+    max-height: 520px;
+  }
 }
