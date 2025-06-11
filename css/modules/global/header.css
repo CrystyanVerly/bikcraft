@@ -30,6 +30,7 @@
   transition: width 0.3s ease-in-out;
   width: 0%;
 }
-.header-menu a:hover::before {
+.header-menu a:hover::before,
+.header-menu a.menu-ativo::before {
   width: 100%;
 }
