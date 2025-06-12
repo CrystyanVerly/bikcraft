@@ -12,8 +12,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="shortcut icon" href="/img/favicon.svg" type="image/svg+xml" width="32" height="32" />
 
+  <script src="/plugins/simple-anime.js" defer></script>
   <script src="/js/script.js" defer></script>
+
   <title>Bikcraft</title>
+
+  <script>document.documentElement.classList.add("js");</script>
+
 </head>
 
 <body id="landingPage">
@@ -34,16 +39,16 @@
   <main class="main-bg">
     <div class="main-container structure-side">
       <div class="main-description-container">
-        <h1 class="main-title font-1-xxl color-c00">
+        <h1 class="main-title font-1-xxl color-c00 fadeInDown" data-anime="200">
           Bicicletas feitas sob medida<span class="highlight-letter color-p1">.</span>
         </h1>
-        <p class="main-description font-2-l color-c05">
+        <p class="main-description font-2-l color-c05 fadeInDown" data-anime="400">
           Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
           para você. Explore o mundo na sua velocidade com a Bikcraft.
         </p>
         <a href="/bikes.html" class="btn">Escolha a sua</a>
       </div>
-      <picture class="main-img-container">
+      <picture class="main-img-container fadeInRight" data-anime="600">
         <source media="(max-width: 900px)" srcset="/img/bicicletas/nimbus.jpg" />
         <img src="/img/fotos/introducao.jpg" alt="Nimbus bike" width="1280" height="1600" />
       </picture>
@@ -249,6 +254,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>

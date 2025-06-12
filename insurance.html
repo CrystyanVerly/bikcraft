@@ -8,8 +8,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="/img/favicon.svg" type="image/svg+xml">
+  <script src="/plugins/simple-anime.js" defer></script>;
   <script src="/js/script.js" defer></script>
+
   <title>Seguros | Bikcraft</title>
+  <script>document.documentElement.classList.add("js");</script>
+
 </head>
 
 <body id="insurance">
@@ -39,7 +43,7 @@
     <article class="insurance-bg ">
       <div class="insurance-container structure-side inner-insurance">
         <div class="insurance-types-container">
-          <div class="insurance silver">
+          <div class="insurance silver fadeInDown" data-anime="200">
             <div class="insurance-price-container">
               <h3 class="font-1-xl color-c06">PRATA</h3>
               <div class="insurance-price">
@@ -55,7 +59,7 @@
             </ul>
             <a href="/budget.html?tipo=seguro&produto=prata" class="btn secundary">Inscreva-se</a>
           </div>
-          <div class="insurance gold">
+          <div class="insurance gold fadeInDown" data-anime="400">
             <div class="insurance-price-container">
               <h3 class="font-1-xl color-p1">OURO</h3>
               <div class="insurance-price">
@@ -200,6 +204,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>

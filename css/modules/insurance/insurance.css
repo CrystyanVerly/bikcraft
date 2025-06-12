@@ -65,10 +65,10 @@
 .FAQ-bg button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
-.FAQ-bg dd {
+.js .FAQ-bg dd {
   max-width: 80ch;
   display: none;
 }
-.FAQ-bg dd.accordion-ativo {
+.js .FAQ-bg dd.accordion-ativo {
   display: block;
 }

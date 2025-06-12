@@ -63,3 +63,9 @@ galeria.forEach((img) => {
   img.addEventListener("mouseover", scaleImage);
   img.addEventListener("mouseout", resetScale);
 });
+
+// plugin
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
