@@ -36,21 +36,23 @@
 .question-container:nth-child(odd) {
   background-color: var(--color-c01);
 }
-.FAQ-bg dt {
+.FAQ-bg button {
   align-items: center;
   cursor: pointer;
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  background: none;
+  width: 100%;
 }
-.FAQ-bg dt::before {
+.FAQ-bg button::before {
   background-color: var(--color-p1);
   content: "";
   display: inline-block;
   height: 8px;
   width: 12px;
 }
-.FAQ-bg dt::after {
+.FAQ-bg button::after {
   background: url("/img/icones/seta-abrir.svg");
   content: "";
   display: inline-block;
@@ -59,9 +61,14 @@
   width: 14px;
   transition: 0.3s;
 }
-.FAQ-bg dt:hover::after {
+.FAQ-bg button:hover::after,
+.FAQ-bg button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
 .FAQ-bg dd {
   max-width: 80ch;
+  display: none;
+}
+.FAQ-bg dd.accordion-ativo {
+  display: block;
 }

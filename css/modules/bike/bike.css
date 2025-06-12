@@ -16,6 +16,7 @@
 .bikes-galery-container img {
   flex: 1;
   min-width: 200px;
+  cursor: pointer;
 }
 
 .bikes-galery-container img:first-child {
